@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  @apply block m-[10px] py-2 px-0 dark:bg-[#393a3a] rounded-md
+}
